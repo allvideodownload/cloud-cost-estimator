@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.estimator-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.estimator-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.estimator-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.estimator-form label {
+    margin-top: 10px;
+    color: #555;
+}
+
+.estimator-form input, 
+.estimator-form select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.estimator-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.estimator-form button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.result h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    .estimator-form {
+        padding: 10px;
+    }
+}
